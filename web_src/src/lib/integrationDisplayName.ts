@@ -8,6 +8,7 @@ const INTEGRATION_TYPE_DISPLAY_NAMES: Record<string, string> = {
   openai: "OpenAI",
   claude: "Claude",
   cursor: "Cursor",
+  gemini: "Gemini",
   pagerduty: "PagerDuty",
   slack: "Slack",
   digitalocean: "DigitalOcean",
