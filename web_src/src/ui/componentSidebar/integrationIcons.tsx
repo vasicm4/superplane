@@ -58,6 +58,7 @@ import servicenowIcon from "@/assets/icons/integrations/servicenow.svg";
 import statuspageIcon from "@/assets/icons/integrations/statuspage.svg";
 import launchdarklyIcon from "@/assets/icons/integrations/launchdarkly.svg";
 import teamsIcon from "@/assets/icons/integrations/teams.svg";
+import geminiIcon from "@/assets/icons/integrations/gemini.svg";
 
 /** Integration type name (e.g. "github") → logo src. Used for Settings tab and header. */
 export const INTEGRATION_APP_LOGO_MAP: Record<string, string> = {
@@ -84,6 +85,7 @@ export const INTEGRATION_APP_LOGO_MAP: Record<string, string> = {
   "open-ai": openAiIcon,
   claude: claudeIcon,
   cursor: cursorIcon,
+  gemini: geminiIcon,
   perplexity: perplexityIcon,
   pagerduty: pagerDutyIcon,
   rootly: rootlyIcon,
@@ -130,6 +132,7 @@ export const APP_LOGO_MAP: Record<string, string | Record<string, string>> = {
   "open-ai": openAiIcon,
   claude: claudeIcon,
   cursor: cursorIcon,
+  gemini: geminiIcon,
   perplexity: perplexityIcon,
   pagerduty: pagerDutyIcon,
   rootly: rootlyIcon,

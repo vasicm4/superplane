@@ -1,6 +1,6 @@
 import type { ComponentBaseProps, EventSection } from "@/ui/componentBase";
 import geminiIcon from "@/assets/icons/integrations/gemini.svg";
-import { getState, getStateMap, getTriggerRenderer } from "@/pages/workflowv2/mappers";
+import { getState, getStateMap, getTriggerRenderer } from "..";
 import { renderTimeAgo } from "@/components/TimeAgo";
 import type React from "react";
 import type {
